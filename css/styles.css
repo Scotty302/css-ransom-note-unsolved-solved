@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Carter+One&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
   padding: 0;
@@ -106,7 +109,7 @@ body {
   color: red; 
   font-weight: bolder;
   text-decoration: whitesmoke;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-family: monospace;
 }
 
@@ -132,203 +135,576 @@ body {
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 67px;
   color: blue;
   font-weight: bold;
   text-decoration: underline;
 }
 
 .frontendRLetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 
-.frontendOLetter {
+.frontendOLetter,
+.frontendELetter,
+.frontendDLetter {
+  font-size: 70px;
+  text-decoration: transparent;
+  font-weight: 700; 
 }
 
-.frontendNLetter {
+.frontendNLetter,
+.developerDLetter,
+.developerVLetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 
 .frontendTLetter {
-}
-
-.frontendELetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 
 .frontendNTwoLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
-.frontendDLetter {
+ frontenddTwoLetter{
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 .developerELetter {
+  font-size: 70px;
+  text-decoration: transparent;
+  font-weight: 700; 
 }
 .developerVLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .developerETwoLetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 .developerLLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 .developerOLetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .developerPLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .developerEThreeLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .developerRLetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .takeALetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .takeKLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255 120 30);
+  text-decoration: whitesmoke;
+  text-transform: lowercase;
+  font-family: monospace;
 }
 .takeELetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .upPLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 .gardeningALetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .gardeningRLetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 .gardeningDLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .gardeningELetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .gardeningNLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 .gardeningILetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .gardeningNTwoLetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 .gardeningGTwoLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255 120 30);
+  text-decoration: whitesmoke;
+  text-transform: lowercase;
+  font-family: monospace;
 }
 .becauseELetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .becauseCLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .becauseALetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .becauseULetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 .becauseSLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .becauseETwoLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .theyHLetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .theyELetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 .theyYLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 .wantedALetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .wantedNLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255 120 30);
+  text-decoration: whitesmoke;
+  text-transform: lowercase;
+  font-family: monospace;
 }
 .wantedTLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .wantedELetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .wantedDLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
 /* TO word */
 
 .toTLetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 .toOLetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .improveMLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .improvePLetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 .improveRLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255 120 30);
+  text-decoration: whitesmoke;
+  text-transform: lowercase;
+  font-family: monospace;
 }
 .improveOLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .improveVLetter {
+    font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: mediumorchid;
 }
 .improveELetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 .theirHLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .theirELetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .theirILetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: mediumorchid;
 }
 .theirRLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .rootOLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(255 120 30);
+  text-decoration: whitesmoke;
+  text-transform: lowercase;
+  font-family: monospace;
 }
 .rootOTwoLetter {
+  font-size: 50px;
+  color: red; 
+  font-weight: bolder;
+  text-decoration: whitesmoke;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 .rootTLetter {
+  font-size: 132px;
+  color: hotpink;
+  text-shadow: 2px 2px 4px gray;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: mediumorchid;
 }
 .skillsKLetter {
+  font-size: 90px;
+  color: purple; 
+  font-weight: bold;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 .skillsILetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 .skillsLLetter {
+  color:deeppink;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: cursive;
 }
 .skillsLTwoLetter {
+  font-size: 122px;
+  text-decoration-line: overline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: mediumorchid;
 }
 .skillsSTwoLetter {
+  font-size: 120px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: lawngreen;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 200px;
+  text-decoration: dashed;
 }
 .exclamation-mark {
+  font-size: 110px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: double;
 }
 .question-mark {
+  font-size: large;
+  text-decoration: line-through;
+  font-weight: bolder;
 }
